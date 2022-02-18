@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(83, 122, 226);
+}
+#main-title{
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 34px;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    background: #EEEEEE;
+    flex-wrap: wrap;
+}
+.navbar-logo{
+    width: 300px;
+}
+.navbar-menu{
+    list-style-type: none;
+}
+.navbar-link{
+    display: inline-block;
+    padding: 15px 5px;
+}
+.navbar-link a{
+    padding: 15px 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+.navbar-link a:hover{
+    background: hsl(0, 0%, 20%, 0.65);
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    flex-wrap: wrap;
+}
+
+#left, #right{
+    width: 45%;
+    margin: 30px 0;
+}
+
+#left>h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 32px
+}
+.main-p{
+    margin: 2em 0;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+form{
+    text-align: center;
+    margin-top: 25px;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+button{
+    padding: 5px 15px;
+}
+footer{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background: #EEEEEE;
+}
+.box-container{
+    display: flex;
+    border: #333 1px; 
+    background:rgb(240, 240, 243);
+    justify-content: space-between;
+    padding: 0px 50px;
+    
+}
+

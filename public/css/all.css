@@ -1,0 +1,198 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.11/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url("https://use.fontawesome.com/releases/v5.0.11/css/all.css");
+
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+.dialogo {
+    text-align: center;
+}
+.container{
+    height: 100%;
+    align-content: right;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+    *{
+        box-sizing: border-box;
+          border: 1px solid transparent;
+    }
+    
+    
+    .sidebar3
+    {padding-top:30px;
+    padding-left:30px;
+    padding-right:0px;}
+    .logo
+    {
+    float:left;
+    }
+    .logo > img
+    {
+      box-shadow:0 0 0 1px #848FD8, 0 0 0 5px #1E1E45, 0 0 0 6px #848FD8,  -2px -2px 0 6px #00bcd4;
+      border:1px;
+      border-radius:100%;
+      padding:5px;
+    
+    }
+    .name
+    { float:right;
+      clear:right;
+      padding:5px;
+      height: 74px;
+      vertical-align: middle;
+      padding-top:20px;
+      text-align:right;
+    }
+    .name > p
+    {
+      margin-bottom: 0px;
+    }
+    i {
+      display: inline-block;
+      margin-right: 1em;
+    }
+    li
+    {
+      list-style-type: none;
+      padding:5px;
+      border-bottom:1px solid #848FD8;
+    }
+    ul{padding-left:0px;}
+    .activebooks
+    {
+    border:1px solid #848FD8;
+    padding:0px 10px;
+    margin-top:-2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    }
+    .dropdown .fa-plus
+    { border:1px solid #848FD8;
+    padding:4px;
+    margin-top:-2px;
+    margin-right:0px;
+    }
+    
+    .list
+    {
+      padding-left:20px;
+    }
+    .dropdown
+    {
+      margin-left:-15px;
+    }
+    .submenu > li
+    { display:list-item;
+    list-style-type: square;
+    
+    }
+    .submenu{
+      padding-left:12px;
+    }
+    .submenu > li:hover
+    {
+      color:blue;
+    }
+    .category::before, .category::after, .submenu::after
+    {
+      content:" ";
+      white-space:pre;
+    }
+    i.fa.fa-circle-thin
+    {
+      color:#00ff74;
+    }
+    li:hover{
+      background-color:rgba(255, 255, 255, 0.25);
+      cursor:pointer;
+    }
+    .main-content
+    { text-align: right;
+    }
+    .main-content > p > a
+    {color: white;}
